@@ -20,3 +20,6 @@ CREATE TABLE `tarea` (
  KEY `persona_id` (`persona_id`),
  CONSTRAINT `tarea_ibfk_1` FOREIGN KEY (`persona_id`) REFERENCES `persona` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1
+
+
+INSERT INTO persona (alias,apellido,nombre,email) VALUES ("pepe","Jose","Garzon","jogar123@hotmail);
